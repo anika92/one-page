@@ -1,0 +1,124 @@
+@media only screen and (max-width: 1200px){
+.row{
+    margin: 0 25px;
+}
+
+}
+@media only screen and (max-width: 1024px){
+    
+    html{
+        font-size: 57.5%;
+    }
+
+
+.main_menu li{
+    display: none;
+}
+.mobile_menu span{
+    display: block;
+    
+}
+  header nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  header nav ul .show {
+    display: flex;
+  }
+  
+.text_box
+{
+    width:100%;
+}
+
+.testimonial_image{
+
+  width: 100%;
+
+    float: none;
+
+
+}
+.client_review{
+    width:100%;
+    float:none;
+    text-align: center;
+}
+
+.contact form{
+    width:100%;
+    margin-left:0
+
+}
+}
+@media only screen and (max-width: 980px)
+{
+    .span_1_of_4 {
+        width: 49.2%;
+}
+html{
+    font-size: 62.5%;
+}
+
+}
+.section_one.col:first-child{
+    margin-left: 0;
+}
+.col:nth-child(3){
+    margin-left:0;
+ 
+}
+.box p{
+    width: 89%; 
+}
+@media only screen and (max-width: 768px){
+    .section_paragraph{
+        width:100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .footer_section ul li a{
+        padding:0 0;
+        font-size: 2rem;
+       }
+}
+@media only screen and (max-width: 468px){
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+
+   .span_1_of_4{
+    width:100%;
+   }
+   .footer_section ul li a{
+    font-size:1.4rem;
+    
+   
+   }
+   .section_five .col:nth-child(3), .section_five .col:nth-child(4) {
+    margin-top: 4rem;
+
+} 
+}
+@media only screen and (max-width: 360px){
+
+.team_image{
+    width: 17rem;
+}
+
+}

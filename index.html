@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./vendor/css/normalize.css">
+    <link rel="stylesheet" href="./vendor/css/grid.css">
+    <link rel="stylesheet" href="./vendor/css/animated_circle.css">
+
+    
+    <link rel="stylesheet" href="./resources/css/style.css">
+     <link rel="stylesheet" href="./resources/css/responsive.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+   
+    <header id="home" class="wrapper">
+<nav>
+           
+    <div class="row">
+               
+                <a href="#home"> 
+            <img class="logo" src="./resources/images/cuda_logo.png" alt="logo">
+        </a>
+            <ul class="main_menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#section_one">service</a></li>
+            <li><a href="#section_two">team</a></li>
+            <li><a href="#section_three">skill</a></li>
+            <li><a href="#section_four">PORTFOLIO</a>
+            <li><a href="#section_five">contact</a></li>
+
+                
+            
+            </ul>
+            
+        <div class="mobile_menu">
+            <span onclick="openNav()">&#8801;</span>
+        </div>
+            <div id="mobile_nav" class="overlay">
+                <a href="javascipt:void()" class="closebtn" onclick="closeNav()">
+                    <span>&times;</span>
+                </a>
+                <div class="overlay_content">
+                    
+                    <a onclick="closeNav()" href="#home" >Home</a>
+
+                    <a onclick="closeNav()" href="#section_one" >service</a>
+
+                    <a onclick="closeNav()" href="#section_two" >team</a>
+
+                    <a onclick="closeNav()" href="#section_three">skill</a>
+
+                    <a onclick="closeNav()" href="#section_four">portfolio</a>
+                    <a onclick="closeNav()" href="#section_five">testimonial</a>
+                    <a onclick="closeNav()" href="#contact">contact</a>
+               
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+        <div class="row">
+            
+            <div class="text_box">
+            <h1>Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
+            
+           
+            <a href="http://" class="btn">Work with me</a>
+        
+        
+        </div>
+    
+            </header>
+    <section class="section_one" id="section_one" >
+                <div class="row">
+                 
+                       <h2>SERVICES WE PROVIDE</h2>
+        <p class="section_paragraph">We are working with both individuals
+             and businesses from all over the globe
+            to create awes
+            ome websites and applications.
+            
+            </p>
+        </div>
+        
+        <div class="row">
+            <div class="col span_1_of_4 box">
+            <img src="./resources/images/flag.png" alt="flag" srcset="" class="services_icon">
+                <h3>Branding</h3>
+                <p>Lorem ipsum dolor sit amet, 
+                consectetuer adipiscing elit, sed diam nonummy nibh.
+            </p></div>
+            <div class="col span_1_of_4 box">
+                <img src="./resources/images/pencil.png" alt="pencil" srcset=""class=services_icon>
+                <h3>Design</h3>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem  </p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="./resources/images/gears.png" alt="" srcset="" class="services_icon">
+                <h3 >Development</h3>
+                
+                <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="./resources/images/rocket.png" alt="" srcset=""class="services_icon">
+                <h3>ROCKET  SCIENCE</h3>
+                <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_two" id="section_two">
+        <div class="row">
+            
+ <h2>MEET OUR BEAUTIFUL TEAM</h2>
+                <p class="section_paragraph">We are a small team of designers and developers, 
+                who help brands with big ideas.</p>
+        
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                
+                    <img src="./resources/images/1.jpg"class="team_image" alt="" srcset="">
+                <h3>ANNE HATHAWAY</h3>
+                <span class="role">CEO / Marketing Guru</span>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                    <div class="social_icon">
+                <ul>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                </ul>
+                 </div>
+            </div>
+                <div class="col span_1_of_4 box">
+                    <img src="./resources/images/2.jpg" alt="" srcset="" class="team_image">
+                    <h3>Kate Upton</h3>
+                    <span class="role">Creative Director</span>
+                    <p>Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+                    <div class="social_icon">
+                        <ul>
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fa fa-envelope"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                     </div>
+                </div>
+              <div class="col span_1_of_4 box">
+                <img src="./resources/images/3.jpg" alt="" srcset="" class="team_image">
+                 <h3>Olivia Wilde</h3>
+                 <span class="role">Lead Designer</span>
+                 <p>Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                 <div class="social_icon">
+                    <ul>
+                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                 </div>
+            </div>
+                <div class="col span_1_of_4 box">
+                    <img src="./resources/images/4.jpg" alt="" srcset=""class="team_image">
+                <h3>Ashley Greene</h3>
+                <span class="role">SEO / Developer</span>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                <div class="social_icon">
+                    <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+                 </div>
+            </div>
+            </div>
+        </div>
+    </section>
+   <section class="section_three" id="section_three">
+    <div class="row">
+        <h2>WE GOT SKILLS!</h2>
+            <p class="section_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                  </svg>
+                  <h3> Web design</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                  </svg>
+                  <h3>HTML/CSS</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress graphic-design" data-percentage="70" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                  </svg>
+                  <h3>graphic design</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress UI-UX" data-percentage="85" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                  </svg>
+                  <h3>ui/ux</h3>
+            </div>
+        </div>
+    </section>
+    <section class="section_four" id="section_four">
+<div class="row">
+    <h2 class="section_heading">OUR PORTFOLIO</h2>
+        <p class="section_paragraph">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>
+        consectetur, adipisci velit, sed quia non numquam</p>
+        </div>
+     
+<div class="row">
+<div class="filter_button">
+    
+<button type="button" class="shadow_button" data-filter="all">All</button>
+<button type="button" class="shadow_button"  data-filter=".web">web</button>
+<button type="button" class="shadow_button" data-filter=".icons">icons</button>
+<button type="button" class="shadow_button" data-filter=".apps">apps</button>
+</div>
+
+     
+    </div>
+    
+    <div class="row container">
+
+        <div class="col span_1_of_2 mix apps box ">
+
+        <img src="./resources/images/portfolio1.png" alt="" srcset="" class="portfolio_image ">
+            <h4>Sometric Perspective Mock-Up</h4>
+            </div>
+            <div class="col span_1_of_2 mix apps icons box">
+            <img src="./resources/images/portfolio2.png" alt="" srcset="" class="portfolio_image ">
+<h4>Viro Media Players UI</h4>
+            </div>
+        
+       </div>
+<div class="row">
+    <div class="col span_1_of_2 mix web apps icons box">
+        <img src="./resources/images/portfolio2.png" alt=""srcset="" class="portfolio_image">          
+            <h4>Time Zone App UI</h4>
+
+    </div> 
+    <div class="col span_1_of_2 mix web box">      
+    <img src="./resources/images/portfolio4.png" alt="" srcset="" class="portfolio_image ">
+            
+            <h4>Blog / Magazine Flat UI Kit</h4>
+
+        </div>
+        
+    </div>
+
+    <a href="http://" class="btn">load more project</a>
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+<section class="section_five" id="section_five">
+    <div class="row">
+        
+            <h2>WHAT POEPLE SAY ABOUT US</h1>
+            <p class="section_paragraph">Our clients love us! </p>
+        
+    </div>
+
+    <div class="row">
+  
+        <div class="col span_1_of_2 box">
+            <div class="testimonial_image">
+                <img src="./resources/images/1.jpg" alt="" srcset="" >
+            </div>
+            <div class="client_review">
+                <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”
+
+                </p>
+                
+            <h3>Chanel Iman</h3>
+            <span class="role">CEO of pinterest</span>
+            
+            </div>   
+        </div>
+
+            
+        <div class="col span_1_of_2 box">
+                
+            <div class="testimonial_image">
+                <img  src="./resources/images/2.jpg" alt="" srcset="">
+            </div>
+            <div class="client_review">
+                
+                <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”
+            </p>
+          
+                <h3>Chanel Iman</h3>
+                <span class="role">CEO of pinterest</span>
+                
+            </div>
+    
+           </div>   
+        
+                <div class="col span_1_of_2 box">
+            <div class="testimonial_image">
+                <img src="./resources/images/3.jpg" alt="" srcset="" >
+            </div>
+            <div class="client_review">
+                <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”
+            </p>
+           
+                <h3>Chanel Iman</h3>
+                <span class="role">CEO of pinterest</span>
+                  
+            </div>
+            </div>
+            <div class="col span_1_of_2 box">
+                
+            <div class="testimonial_image">
+                <img src="./resources/images/4.jpg" alt="" srcset="" >
+            </div>
+            <div class="client_review">
+                <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                
+                    <h3>Chanel Iman</h3>
+                    <span class="role">CEO of pinterest</span>
+                    
+                 
+            </div>
+        </div>
+        </div>
+    
+
+
+
+</section>   
+    
+  
+<!--contact-->
+<!--  -->
+<section class="contact" id="contact">
+<div class="row">
+<h2>GET IN TOUCH</h2>
+<p class="section_paragraph">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
+</p>
+</div>
+<div class="row">
+<form action="#" method="POST">
+<div class="row">
+    <div class="col span_1_of_2">
+<input type="text" name="name" id="name" placeholder="YourName*" required>
+
+    </div>
+    <div class="col span_1_of_2">
+      <input type="email" name="email" id="email" placeholder="YourEmail*" required>
+        
+            </div>
+    
+</div>
+
+<div class="row">
+<textarea name="msg" id="msg"  placeholder="YourMessage*" required></textarea>
+ </div>
+ <div class="row">
+    <input type="submit" class="btn btn_submit" value="SEND MESSAGE ">
+ </div>
+ 
+ </form>
+
+</div>
+
+
+
+</section>
+<footer class="footer_section">
+<div class="row">
+
+    <ul>
+       
+        <li><a href="#">Facebool</a></li>
+        <li><a href="">Twitter</a></li>
+        <li><a href="">google+</a></li>
+        <li><a href="">Linkedin</a></li>
+        <li><a href="">Behance</a></li>
+        <li><a href="">GitHub</a></li>
+    </ul>
+
+
+</div>
+
+</footer>
+
+
+
+
+
+ 
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+        crossorigin="anonymous"></script>
+
+<script src="./vendor/js/html5shiv.min.js"></script>
+<script src="./vendor/js/respond.min.js"></script>
+<script src="./vendor/js/selectivizr.min.js"></script>
+<script src="./vendor/js/jquery.waypoints.min.js"></script>
+<script src="./vendor/js/animated_circle.js"></script>
+<script src="./vendor/js/jquery.nav.js"></script>
+<script src="./vendor/js/mixitup.min.js"></script>
+<script  src="./resources/js/main.js"></script>
+      
+</body>
+</html>
